@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MasokoPurchase,Firefox 66.0,,,2019-05-09 11:50:35,2019-05-09 11:51:40,1m - 5.090s,PASSED
+,,,,,,,
+Test Cases/MasokoProductSearch,Firefox 66.0,,,2019-05-09 11:50:35,2019-05-09 11:51:36,1m - 0.799s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-09 11:50:35,2019-05-09 11:50:49,13.919s,PASSED
+"navigateToUrl(""https://www.masoko.com/customer/account/"")",Firefox 66.0,,,2019-05-09 11:50:49,2019-05-09 11:51:13,23.686s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginusername""), ""moses.muchemi@gmail.com"")",Firefox 66.0,,,2019-05-09 11:51:13,2019-05-09 11:51:14,1.069s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginpassword""), ""oL1+9x6nHVOyLtkhsYkZZA=="")",Firefox 66.0,,,2019-05-09 11:51:14,2019-05-09 11:51:14,0.267s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Sign In""))",Firefox 66.0,,,2019-05-09 11:51:14,2019-05-09 11:51:20,5.360s,PASSED
+"setText(findTestObject(""Object Repository/Page_My Account/input_Search_q""), ""Lg Tv"")",Firefox 66.0,,,2019-05-09 11:51:20,2019-05-09 11:51:21,1.281s,PASSED
+"click(findTestObject(""Object Repository/Page_My Account/button_Search""))",Firefox 66.0,,,2019-05-09 11:51:21,2019-05-09 11:51:30,9.318s,PASSED
+"click(findTestObject(""Object Repository/Page_Search results for LG Tv/span_Add to Cart""))",Firefox 66.0,,,2019-05-09 11:51:30,2019-05-09 11:51:36,5.527s,PASSED

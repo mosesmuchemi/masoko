@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MasokoPurchase" time="65" tests="1" failures="0" errors="0">
+   <testsuite name="MasokoPurchase" tests="1" failures="0" errors="0" time="65" timestamp="2019-05-09 11:50:35" hostname="AppFactory - DESKTOP-RH5DFLM" id="Test Suites/MasokoPurchase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AppFactory\\Katalon Studio\\Masoko\\Reports\\MasokoPurchase\\20190509_115029"/>
+         <property name="logFiles" value="C:\\Users\\AppFactory\\Katalon Studio\\Masoko\\Reports\\MasokoPurchase\\20190509_115029\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AppFactory - DESKTOP-RH5DFLM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="172.16.40.15"/>
+         <property name="sessionId" value="5a8190fa-7cdd-416a-9d76-18a250839e2a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MasokoProductSearch" classname="Test Cases/MasokoProductSearch" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:50:35 - [TEST_CASE][PASSED] - Test Cases/MasokoProductSearch: Test Cases/MasokoProductSearch
+
+2019-05-09 11:50:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 11:50:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 11:50:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 11:50:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 11:50:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.masoko.com/customer/account/"): Navigate to 'https://www.masoko.com/customer/account/' successfully
+
+2019-05-09 11:51:13 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/customer/account/' successfully
+
+2019-05-09 11:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginusername"), "moses.muchemi@gmail.com"): Text 'moses.muchemi@gmail.com' is set on object 'Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginusername'
+
+2019-05-09 11:51:14 - [MESSAGE][PASSED] - Text 'moses.muchemi@gmail.com' is set on object 'Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginusername'
+
+2019-05-09 11:51:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginpassword"), "oL1+9x6nHVOyLtkhsYkZZA=="): Text ****** has been set on object 'Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginpassword'
+
+2019-05-09 11:51:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Customer Login/input_If you have an account sign in with your email address_loginpassword'
+
+2019-05-09 11:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2019-05-09 11:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2019-05-09 11:51:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_My Account/input_Search_q"), "Lg Tv"): Text 'Lg Tv' is set on object 'Object Repository/Page_My Account/input_Search_q'
+
+2019-05-09 11:51:21 - [MESSAGE][PASSED] - Text 'Lg Tv' is set on object 'Object Repository/Page_My Account/input_Search_q'
+
+2019-05-09 11:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Account/button_Search")): Object: 'Object Repository/Page_My Account/button_Search' is clicked on
+
+2019-05-09 11:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Account/button_Search' is clicked on
+
+2019-05-09 11:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search results for LG Tv/span_Add to Cart")): Object: 'Object Repository/Page_Search results for LG Tv/span_Add to Cart' is clicked on
+
+2019-05-09 11:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search results for LG Tv/span_Add to Cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 11:50:35 - [TEST_SUITE][PASSED] - MasokoPurchase: Test Cases/MasokoProductSearch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
